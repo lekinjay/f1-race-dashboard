@@ -1,5 +1,7 @@
 # F1 Race Dashboard
 
+🔗 **Live app:** [f1-race-dashboard-mubarak.streamlit.app](https://f1-race-dashboard-mubarak.streamlit.app)
+
 ## Overview
 A data analysis project using real Formula 1 race data to explore lap times, tyre degradation, and track evolution. An interactive dashboard was built with Streamlit, where you can select any race and any two drivers to generate all three charts on demand. This project consists of two datasets: Monaco 2022 and Bahrain 2022. Monaco is a poor dataset for analyzing tyre degradation due to the wet and intermediate compounds used; the goal of tyre degradation analysis was achieved using Bahrain 2022.
 

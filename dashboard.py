@@ -21,7 +21,7 @@ year, race_name = race_options[race_choice]
 
 # Load the session
 session = fastf1.get_session(year, race_name, 'R')
-session.load()
+session.load(telemetry=False, weather=False)
 laps = session.laps
 
 # Cleaning

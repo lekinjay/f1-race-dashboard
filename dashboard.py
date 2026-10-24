@@ -7,7 +7,7 @@ import os
 st.title("F1 Race Dashboard")
 st.write("Compare two drivers across lap time gap, tyre degradation and track evolution.")
 
-cache_dir = r'C:\Users\HomePC\Documents\F1\cache'
+cache_dir = 'cache'
 os.makedirs(cache_dir, exist_ok=True)
 fastf1.Cache.enable_cache(cache_dir)
 
